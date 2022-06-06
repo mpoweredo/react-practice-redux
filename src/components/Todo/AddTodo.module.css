@@ -1,0 +1,29 @@
+.form-control {
+	display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    margin: 1em 0;
+}
+
+.todo-title-input {
+    border: transparent;
+    outline: transparent;
+    padding: .4em .2em;
+    border-radius: 2px;
+    width: 300px;
+}
+
+.add-todo-button {
+    padding: .4em .2em;
+    border: transparent;
+    outline: transparent;
+    margin: 1em 0;
+    border-radius: 2px;
+    width: 200px;
+    font-weight: 600;
+    background-color: #b590ce;
+    color: #3f125e;
+    cursor: pointer;
+}

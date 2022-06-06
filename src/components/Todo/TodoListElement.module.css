@@ -1,0 +1,44 @@
+.todo-list-item {
+    list-style-type: none;
+    background-color: #b590ce;
+    padding: 1.2em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.todo-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.complete {
+    color: #ffffff;
+}
+
+.not-complete {
+    color: #a269c9;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.2em;
+}
+
+.todo-item-del-btn {
+    padding: .4em .2em;
+    border: transparent;
+    outline: transparent;
+    margin: 1em 0;
+    border-radius: 2px;
+    width: 200px;
+    font-weight: 600;
+    background-color: #af64e0;
+    width: 150px;
+    color: #3f125e;
+    cursor: pointer;
+}
+
