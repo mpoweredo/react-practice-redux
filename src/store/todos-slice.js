@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// const item = { title: "ez", id: "kd", complete: false };
+
 const initialTodosState = {
 	todos: [],
 };

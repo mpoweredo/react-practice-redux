@@ -1,12 +1,9 @@
-import { useDispatch } from "react-redux";
 import React, { useState } from "react";
 
 import classes from './AddTodo.module.css'
 
-import { todosActions } from "../../store/todos-slice";
 
-const AddTodo = () => {
-	const dispatch = useDispatch();
+const AddTodo = props => {
 	const [todoTitleInput, setTodoTitleInput] = useState("");
 
 	const todoTitleInputHandler = (e) => {
@@ -26,7 +23,7 @@ const AddTodo = () => {
 			id: Math.random(),
 		};
 
-		dispatch(todosActions.addTodo(todo));
+		props.onAddTodo(todo)
 		setTodoTitleInput("");
 	};
 
